@@ -250,7 +250,7 @@ nav a:hover {
 
 
 .about-me h6{
-    font-size: 25px;
+    font-size: 25px !important; 
     font-weight: 200;
 
     /* padding: 0 200px;  */
@@ -260,11 +260,6 @@ nav a:hover {
 }
 
 
-/* 
-.skills img{
-    width: 120px;
-    height: 40px;
-} */
 
 
 
@@ -323,17 +318,27 @@ h3{
     letter-spacing: 10px;
     margin-left: 10px;
     font-size: 30px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
     @media screen and (max-width: 700px) {
         font-size: 30px;
         letter-spacing: 7px;
-
     } 
+
 }
 
 
 
+
+
+
+/* @media screen and (min-width: 2000px) { 
+    .about-me:first-child{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+}  */
 
 
 .item{
@@ -593,17 +598,6 @@ h1{
 
 }
 
-@media (max-width: 768px) {
-    .about-me {
-        height: auto;
-        /* padding: 0 20%; */
-    }
-
-    .about-me h6 {
-        font-size: 16px;
-        /* padding: 0 10%; */
-    }
-}
 
 
 
@@ -892,3 +886,82 @@ textarea::placeholder {
     
     }
 }
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 3000px) {
+
+    /* LARG SCREENS */
+
+
+    .about-me{
+        height: 90vh;
+    }
+
+    .about-me{
+        height: 80vh;
+
+    }
+    .about-me h1{
+        /* color: red; */
+        font-size: 80px;
+        /* margin-top: 0; */
+        /* margin-top: 0; 
+        margin-bottom: 50px; */
+    }
+    .about-me h6{
+        color:#7b4397;
+        font-size: 190px;
+        letter-spacing: 0;
+
+    }
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    /* 13 inch screens */
+
+    .about-me{
+        height: 70vh;
+    }
+
+    .about-me{
+        height: 80vh;
+    }
+    .about-me h1{
+        color: red;
+        font-size: 80px;
+        /* margin-top: 0; */
+        /* margin-top: 0; 
+        margin-bottom: 50px; */
+    }
+    .about-me h6{
+
+        color:#7b4397;
+        /* font-size: 90px; */
+        /* letter-spacing: 0; */
+
+    }
+
+    
+} 
