@@ -1191,8 +1191,6 @@ textarea::placeholder {
         height: 90vh;
     }
     .about-me h1 {
-        /* padding-top: 0; */
-        /* color: aqua; */
         font-size: 70px;
     }
 
