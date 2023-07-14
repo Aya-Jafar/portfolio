@@ -292,7 +292,7 @@ nav a:hover {
 
 
 .projects > .item:nth-last-child(-n+2) {
-    flex-basis: calc((100% - (2 * 40px) - 40px) / 2);
+    flex-basis: calc((100% - (2 * 50px) - 50px) / 2);
     flex-wrap: wrap;
 }
 
@@ -310,6 +310,7 @@ hr{
     width: 20%;
     color:rgba(124, 124, 124, 0.568);
     border-width: 0.01px;
+    margin-bottom: 40px;
 }
 
 h3{
@@ -320,6 +321,7 @@ h3{
     font-size: 30px;
     /* margin-top: 50px; */
     /* margin-bottom: 50px; */
+    
     @media screen and (max-width: 700px) {
         font-size: 30px;
         letter-spacing: 7px;
@@ -611,6 +613,10 @@ h1{
     padding:0 30%;
 }
 
+.skills img{
+    width: 20%;
+    height: 25%;
+}
 /* .btn-container {
     display: flex;
     justify-content: center;
@@ -841,6 +847,7 @@ textarea::placeholder {
     font-size: 17px;
     text-align: left;
     padding:20px 20px;
+
 }
 
 
@@ -853,7 +860,17 @@ textarea::placeholder {
     font-size: 25px;
     padding:20px 20px;
 
+
+    box-shadow: 3px 10px 30px rgba(214, 212, 212, 0.37); 
+
 } 
+
+#more-projects:hover{
+
+    box-shadow: 3px 10px 30px rgba(255, 255, 255, 0.37); 
+
+}
+
 
 #more-art{
     width: 20%;
@@ -862,7 +879,17 @@ textarea::placeholder {
     font-size: 25px;
     padding:20px 20px;
     margin-top: 3%;
+
+
+    box-shadow: 3px 10px 30px rgba(214, 212, 212, 0.37); 
     /* margin-bottom: 5%; */
+}
+
+
+#more-art:hover{
+
+    box-shadow: 3px 10px 30px rgba(255, 255, 255, 0.37); 
+
 }
 
 
@@ -900,13 +927,13 @@ textarea::placeholder {
 
 
 
-
-@media screen and (min-width: 1000px){
+/* 
+@media screen and (max-width: 2000px){
 
     /* LARG SCREENS */
 
 
-    .about-me{
+    /* .about-me{
         height: 90vh;
     }
 
@@ -922,7 +949,68 @@ textarea::placeholder {
         letter-spacing: 0;
     }
 
-} 
+}  */ 
+
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+    /* 13 inch screens */
+    .about-me {
+        height: 80vh;
+    }
+    .about-me h1 {
+        color: red;
+        font-size: 10px !important;
+    }
+    .about-me h6 {
+        font-size: 10px !important;
+        letter-spacing: 0;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    /* Large desktop screens */
+    .about-me {
+        height: 90vh;
+    }
+    .about-me h1 {
+        /* padding-top: 0; */
+        /* color: aqua; */
+        font-size: 70px;
+    }
+    #projects div h1{
+        font-size: 70px;
+    }
+    #hobbies div h1{
+        font-size: 70px;
+    }
+    .about-me h6 {
+        font-size: 25px !important;
+        letter-spacing: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    /* Mobile screens */
+    .about-me {
+        height: 60vh;
+    }
+    .about-me h1 {
+        /* color: blue; */
+        font-size: 30px;
+    }
+    .about-me h6 {
+        font-size: 15px !important;
+        letter-spacing: 0;
+    }
+}
+
+
+
+
 
 
 
@@ -930,7 +1018,7 @@ textarea::placeholder {
 @media screen and (min-width: 800px)  {
 
     /* 13 inch screens */
-    .about-me {
+    /* .about-me {
         height: 80vh;
     }
     .about-me h1 {
@@ -944,5 +1032,4 @@ textarea::placeholder {
     .item{
         height: 45vh;
     }
-}
- */
+} */
