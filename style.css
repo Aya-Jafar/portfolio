@@ -993,11 +993,13 @@ textarea::placeholder {
 
 
 
+
+
 @media screen and (max-width: 767px) {
     /* Mobile screens */
-    .about-me {
-        height: 60vh;
-    }
+    /* .about-me {
+        height: 40vh;
+    } */
     .about-me h1 {
         /* color: blue; */
         font-size: 30px;
@@ -1005,6 +1007,9 @@ textarea::placeholder {
     .about-me h6 {
         font-size: 15px !important;
         letter-spacing: 0;
+    }
+    nav a{
+        font-size: 15px !important;
     }
 }
 
