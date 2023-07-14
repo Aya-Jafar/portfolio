@@ -1,70 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aya Jafar</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-        <div class="nav-container">
-            <img src="logo.png" alt="" />
-            <nav>
-            <a href="">About me</a>
-            <a href="">Projects</a>
-            <a href="">Hobbies</a>
-            <a href="">Contact me</a>
-            </nav>
+
+    <div class="nav-container" id="myTopnav">
+        <img src="images/logo.png" alt=""  id="logo"/>
+        <nav>
+            <a href="#about-me">About me</a>
+            <a href="#projects">Projects</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a> -->
+    </div>
+
+
+
+
+    <div class="cover-container">
+
+        <div>
+            <h1>AYA JAFAR</h1>
+            <h3>An artist working with code 👩🏻‍💻</h3>
+            <div class="btn-container">
+                <a href="images/Aya Jafar (2).pdf" class="btn-grad" id="download-btn" download>Download CV</a>
+            </div>
+        </div>
+
+        
+
+        <div class="profile-img">
+            <img src="images/p.png" alt="">
         </div>
 
 
+    </div>
 
-        
-        <div class="cover-container">
-            <img id="cover-image" src="11.png" alt="" />
-            <div class="cover-text">
-                <h1>Hey 👋 , I'm Aya</h1>
-                <h3>An artist working with code from Iraq 👩🏻‍💻</h3>
-            </div>
 
-            <div class="profile-img">
-                <!-- <img src="" alt="aya pic" /> -->
-            </div>
 
+    <div class="about-me" id="about-me">
+        <h1 class="animate-rise hidden">About me</h1>
+        <hr class="animate-rise hidden">
+        <h6 class="animate-rise hidden">
+            As a junior web developer, machine learning enthusiast, and artist, I am passionate about creating visually appealing and user-friendly websites. I enjoy exploring the possibilities of machine learning and developing intelligent solutions to drive innovation. Art is my creative outlet, allowing me to express myself and gain different perspectives. By combining my skills in web development, machine learning, and art, I strive to create impactful experiences that push boundaries and embrace challenges.
+        </h6>
+
+        <h3 class="animate-rise hidden">
+            Technical skills
+        </h3>
+        <hr>
+        <div class="skills animate-rise hidden">
+            <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
+            <img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white" alt="Django">
+            <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
+            <img src="https://img.shields.io/badge/react-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black" alt="React">
+            <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+            <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+            <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+            <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn">
+            <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" alt="TensorFlow">
+            <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+            <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+            <img src="https://img.shields.io/badge/Git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white&color=red" alt="Git">
         </div>
+    </div>
 
 
 
+    <center  id="projects">
+        <div class="animate-rise hidden">
+            <h1>
+                Projects
+            </h1>
+            <h3>
+                apps and websites
+            </h3>
+            <hr>
+        </div>
+    </center>
 
-        <div class="about-me">
-        
-            <div class="about-me-text">
+
+    <div class="projects animate-rise hidden">
+        <div class="item" id="item1">
+            <img src="images/flutter2.png" alt="">
+            <center>
                 <h1>
-                    About me
+                    Electronic ecommerce app
                 </h1>
                 <p>
-                    I am a junior web developer, machine learning enthusiast, and artist.
-                    With a passion for both technology and creativity, I enjoy blending my
-                    skills in web development, machine learning, and artistic expression. As
-                    a web developer, I specialize in front-end technologies such as HTML,
-                    CSS, and JavaScript. I love transforming ideas into visually appealing
-                    and user-friendly websites, creating seamless experiences for users
-                    across different devices. In the realm of machine learning, I am
-                    fascinated by the endless possibilities it offers. Exploring algorithms
-                    and data, I strive to develop intelligent solutions and uncover insights
-                    that can drive innovation in various domains. Beyond my technical
-                    pursuits, I am an artist at heart. Through painting, drawing, and other
-                    artistic mediums, I find inspiration and a means of self-expression. Art
-                    fuels my creativity and allows me to see the world from different
-                    perspectives. Combining my skills as a web developer, machine learning
-                    enthusiast, and artist, I am dedicated to pushing boundaries, embracing
-                    challenges, and creating meaningful and impactful experiences through
-                    technology and art.
+                    Flutter,Django
                 </p>
-            </div>
-            
+            </center>
+        </div>
+        <div class="item" id="item2">
+            <img src="images/flutter.png" alt="">
+            <center>
+                <h1>
+                    Cosmetic ecommerce app
+                </h1>
+                <p>
+                    Flutter
+                </p>
+            </center>
+
+        </div>
+        <div class="item"  id="item3">
+            <img src="images/flutter3.png" alt="">
+            <center>
+                <h1>
+                    Book store app
+                </h1>
+                <p>
+                    Flutter
+                </p>
+            </center>
         </div>
 
+        <div class="item"  id="item4">
+            <img src="images/Untitled design (4).png" alt="">
+            <center>
+                <h1>
+                    Resturant website
+                </h1>
+                <p>
+                    Html, css , JS
+                </p>
+            </center>
+        </div>
+        <div class="item"  id="item5">
+
+            <img src="images/react3.png" alt="">
+            <center>
+                <h1>
+                    SoundShop website
+                </h1>
+                <p>
+                    React JS , Django
+                </p>
+            </center>
+
+        </div>
+    </div>
+    <center>
+        <h3>
+            A.I 
+        </h3>
+        <hr>
+    </center>
+    <div class="projects animate-rise hidden">
+
+        <div class="item" id="AI1">
+            <img src="images/cong.jpg" alt="">
+            <center>
+                <h1>
+                    Traffic jam prediction
+                </h1>
+                <p>
+                    Python
+                </p>
+            </center>
+        </div>
+
+        <div class="item" id="AI1">
+            <img src="images/customer.png" alt="">
+            <center>
+                <h1>
+                    Customer churn prediction
+                </h1>
+                <p>
+                    Python
+                </p>
+            </center>
+        </div>
+
+    </div>
+
+
+    <div>
+        <center>
+            <a href="https://github.com/Aya-Jafar" class="btn-grad" id="more-projects">
+                    More projects
+            </a>
+        </center>
+    </div>
+
+
+
+
+
+
+    <center id="hobbies" class="animate-rise hidden">
+        <div>
+            <h1>
+                Hobbies and interests 
+            </h1>
+            <h3>
+                Art
+            </h3>
+            <hr>
+        </div>
+    </center>
+
+    <div class="art-section">
+
+        <div class="art-item" id="art1">
+            <img src="images/Screenshot 2023-07-11 at 11.28.46 AM (1).png" alt="">
+            <div>
+                <h1>
+                    Creative space opening
+                </h1>
+                <p>
+                    
+                    <i class='fa-solid fa-location-dot' style='color: white'></i>
+                    <span style='margin-left: 5px;'>The station</span>
+                </p>
+
+                <a href="https://www.instagram.com/p/CPv4cOFnmEp/" class="btn-grad more-art">
+                    More pictures
+                </a>
+                
+            </div>
+        </div>
+
+        <div class="art-item" id="art2">
+            <img src="images/Screenshot 2023-07-11 at 11.29.27 AM (1).png" alt="">
+            <div>
+                <h1>
+                    Art made in Iraq
+                </h1>
+                    <p>
+                        <i class='fa-solid fa-location-dot' style='color: white'></i> 
+                        <span style='margin-left: 5px;'> Spanish embassy of Iraq</span> 
+                    </p>
+                <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTUxMzIyMDQwMjUzODYz?igshid=MzRlODBiNWFlZA==" 
+                    class="btn-grad more-art">More pictures
+                </a>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+
+    <div>
+        <center>
+            <a href="https://www.instagram.com/_aya.jaffar_/" class="btn-grad" id="more-art">
+                    More artworks
+            </a>
+        </center>
+    </div>
+    <!-- <a href="https://app.daily.dev/Aya_Jafar"><img src="https://api.daily.dev/devcards/beb51a1444c246adac50d90f09ed1315.png?r=100" width="400" alt="Aya Jafar's Dev Card"/></a> -->
+
+    <br>
+
+    <center id="contact">
+        <div>
+            <h1>
+                Keep in touch
+            </h1>
+            <h3>
+                Feel free to contact me anytime
+            </h3>
+            <hr>
+        </div>
+    </center>
+
+    <div class="contact">
+
+        <div class="contact-item">
+            <!-- <center>
+                <img src="images/social-media.png" alt="">
+            </center> -->
+
+            <div class="social-media">
+
+                <div class="social-media-item">
+
+                    <img src="images/phone-call (1).png" alt="">
+                    <p>+964 771 514 7449</p>
+
+                </div>
+
+                <div class="social-media-item">
+
+                    <img src="images/email.png" alt="">
+                    <p>aya.jafar002@gmail.com</p>
+
+                </div>
+
+                <div class="social-media-item">
+
+                    <img src="images/linkedin.png" alt="">
+                    <a href=""><p>http://linkedin.com/in/aya-jafar/</p></a>
+                
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="contact-item">
+            <form action="" method="post">
+                <div class="form-group">
+                    <!-- <label for="name">Name:</label> -->
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <!-- <label for="email">Email:</label> -->
+                    <input type="text" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <!-- <label for="message">Message:</label> -->
+                    <textarea id="message" name="message" rows="5" placeholder="Message..." required></textarea>
+                </div>
+
+
+                <div class="form-group">
+                    <input type="submit" value="Send" class="btn-grad" id="submit-btn">
+                </div>
+
+
+            </form>
+        </div>
+
+    </div>
+
+
+
+        
+        <footer class="footer">
+            <div>
+                <img src="images/logo.png" alt=""  id="logo" />
+            </div>
+
+            <center>
+                <h3>
+                    &copy; Copyright 2023, Aya Jafar
+                </h3>
+            </center>
+            
+            
+
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
 </html>
