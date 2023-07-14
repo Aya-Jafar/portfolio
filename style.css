@@ -797,6 +797,11 @@ textarea::placeholder {
     margin-right: 180%;
 }
 
+
+.footer  center h3{
+    font-size: 20px;
+    margin-top: 40px;
+}
 /* .qr-code{
     width: 95%;
 
@@ -896,7 +901,7 @@ textarea::placeholder {
 
 
 
-@media screen and (max-width: 3000px) {
+@media screen and (min-width: 1000px){
 
     /* LARG SCREENS */
 
@@ -905,63 +910,39 @@ textarea::placeholder {
         height: 90vh;
     }
 
-    .about-me{
-        height: 80vh;
-
-    }
     .about-me h1{
-        /* color: red; */
-        font-size: 80px;
-        /* margin-top: 0; */
-        /* margin-top: 0; 
-        margin-bottom: 50px; */
-    }
-    .about-me h6{
-        color:#7b4397;
-        font-size: 190px;
-        letter-spacing: 0;
 
-    }
-
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 800px) {
-    /* 13 inch screens */
-
-    .about-me{
-        height: 70vh;
-    }
-
-    .about-me{
-        height: 80vh;
-    }
-    .about-me h1{
         color: red;
-        font-size: 80px;
-        /* margin-top: 0; */
-        /* margin-top: 0; 
-        margin-bottom: 50px; */
+        font-size: 60px;
+        
     }
+
     .about-me h6{
-
-        color:#7b4397;
-        /* font-size: 90px; */
-        /* letter-spacing: 0; */
-
+        font-size: 30px !important;
+        letter-spacing: 0;
     }
 
-    
 } 
+
+
+
+/* 
+@media screen and (min-width: 800px)  {
+
+    /* 13 inch screens */
+    .about-me {
+        height: 80vh;
+    }
+    .about-me h1 {
+        color: aqua;
+        font-size: 40px;
+    }
+    .about-me h6 {
+        font-size: 20px !important;
+    }
+
+    .item{
+        height: 45vh;
+    }
+}
+ */
