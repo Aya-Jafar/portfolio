@@ -906,27 +906,46 @@ textarea::placeholder {
 }
 
 
+#nav-toggle{
+    color:white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
 
 
+.drop-down-menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top:60px;
+    width: 300px;
+    height: 0;
+    background: #08021D;
+    overflow: hidden;
+}
 
 
+.drop-down-menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: center;
+}
 
 
+.drop-down-menu li a{ 
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+    
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.drop-down-menu.open{
+    height: 240px;
+}   
 
 
 
@@ -934,18 +953,14 @@ textarea::placeholder {
 
 @media screen and (max-width: 767px) {
     /* Mobile screens */
-
-    nav {
-        white-space: nowrap;
-        overflow-x: auto;
+    nav a{
+        display: none;
+    }
+    #nav-toggle{
+        display: block;
     }
 
-
-    nav a {
-        display: inline-block;
-        font-size: 13px !important;
-        margin-left: 20px;
-    }
+    
 
     .cover-container div h3{
         font-size: 30px !important;
@@ -1187,10 +1202,15 @@ textarea::placeholder {
     .cover-container h3{
         font-size: 40px;
     }
+    .cover-container img{
+        height: 42vh;
+    }
+
     .about-me {
         height: 90vh;
     }
     .about-me h1 {
+
         font-size: 70px;
     }
 

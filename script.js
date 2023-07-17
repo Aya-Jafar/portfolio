@@ -87,50 +87,11 @@ window.addEventListener('scroll', function() {
 
 
 
+let navBtn = document.querySelector('#nav-toggle');
+let toggleBtnIcon = document.querySelector('#nav-toggle i');
+let dropdown = document.querySelector('.drop-down-menu');
 
-// function addAnimationClasses() {
-//   var elements = document.querySelectorAll('.animate-rise.hidden');
-
-//   elements.forEach(function(element) {
-//       element.classList.remove('hidden');
-//       element.classList.add('animate');
-//   });
-// }
-
-// window.addEventListener('load', addAnimationClasses);
-
-
-
-
-// const menuIcon = document.getElementById('menu-icon');
-// const navContainer = document.querySelector('.nav-container');
-// const dropdownMenu = document.createElement('div');
-// dropdownMenu.classList.add('dropdown-menu');
-
-// const dropdownLinks = [];
-
-// navLinks.forEach((link) => {
-//   const dropdownLink = document.createElement('a');
-//   dropdownLink.href = link.href;
-//   dropdownLink.textContent = link.textContent;
-//   dropdownMenu.appendChild(dropdownLink);
-// });
-
-// navContainer.appendChild(dropdownMenu);
-
-// menuIcon.addEventListener('click', () => {
-//   navContainer.classList.toggle('show');
-// })
-
-
-
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  x.classList.toggle("responsive");
-  // if (x.classList.contains("responsive")) {
-  //   x.classList.remove("responsive");
-  // } else {
-  //   x.classList.add("responsive");
-  // }
-}
-
+toggleBtnIcon.addEventListener('click', () => {
+  dropdown.style.display = 'block'
+  dropdown.classList.toggle('open');
+});
