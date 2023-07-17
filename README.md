@@ -1,3 +1,5 @@
 # portfolio
 
-[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://youtu.be/vt5fpE0bzSY)
+
+https://github.com/Aya-Jafar/portfolio/assets/103113441/cb378a5a-7bde-4885-a292-c7ca41e7a13e
+
