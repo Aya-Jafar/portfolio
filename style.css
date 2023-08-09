@@ -276,18 +276,21 @@ nav a:hover {
 
 }
 
+.AI{
+    flex-basis: calc((100% - (2 * 50px) - 50px) / 2);
+}
 
-
+/* 
 
 .projects > .item:nth-last-child(-n+2) {
     flex-basis: calc((100% - (2 * 50px) - 50px) / 2);
     flex-wrap: wrap;
-}
+} */
 
 
 .projects > .item:nth-last-child(-n+2) img {
     object-fit: fill;
-}
+} 
 
 
 
@@ -354,6 +357,7 @@ h3{
 
     box-shadow: 3px 10px 30px rgba(214, 212, 212, 0.37); 
 }
+
 
 @media screen and (max-width: 768px) {
     .projects {

@@ -87,7 +87,6 @@ window.addEventListener('scroll', function() {
 
 
 
-let navBtn = document.querySelector('#nav-toggle');
 let toggleBtnIcon = document.querySelector('#nav-toggle i');
 let dropdown = document.querySelector('.drop-down-menu');
 
